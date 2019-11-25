@@ -1,0 +1,76 @@
+body {
+    background: #c4c4c4;
+    
+    justify-content: space-around;
+    align-items: center;
+    /* overflow: hidden; */
+    margin: 0px;
+  }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+
+
+  #dots {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 30%; */
+    /* left: 50%; */
+
+    margin-top: 150px;
+    /* margin-left: -375px; */
+    z-index: 1;
+  }
+ 
+
+  #defaultCanvas0{
+    /* top:0; */
+    /* margin-top: 0px; */
+    position: absolute;
+    z-index: 0;
+    top:0px;
+    left:0;
+    width:100%!important;
+}
+
+  .headerContainer{
+    text-align: center;
+    
+  }
+
+ 
+  .about{
+      font-size: 20px;
+      color: aliceblue;
+  }
+
+  
+
+  .aboutContainer{
+    top:1000px;  
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }
+
+.myName{
+  top: -100px;
+  /* left: 50%; */
+  /* right:50%;   */
+  position: relative;
+  /* margin-left: auto;
+  margin-right: auto; */
+  z-index: 3;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+
+
+
