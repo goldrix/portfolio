@@ -1,5 +1,5 @@
 body {
-    background: #c4c4c4;
+    background:white;
     
     justify-content: space-around;
     align-items: center;
@@ -11,8 +11,22 @@ html, body {
     height: 100%;
     margin: 0px;
   }
-
-
+  /* ======MENU */
+  .menu{
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    top:30px;
+  }
+  .tabs{
+    color:white!important;
+    background-color:transparent!important;
+  }
+  
+  
+  .tabs .tab a {
+    color: white!important;
+  }
 
   #dots {
     position: relative;
@@ -42,28 +56,19 @@ html, body {
     
   }
 
- 
-  .about{
-      font-size: 20px;
-      color: aliceblue;
-  }
-
-  
 
   .aboutContainer{
-    top:1000px;  
-    position: absolute;
-    z-index: 2;
+    /* top:1000px;
+    /* position: absolute;
+    /* z-index: 2; */
     text-align: center;
+    
   }
 
+
 .myName{
-  top: -100px;
-  /* left: 50%; */
-  /* right:50%;   */
+  top: -200px;
   position: relative;
-  /* margin-left: auto;
-  margin-right: auto; */
   z-index: 3;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -78,7 +83,26 @@ html, body {
 #title{
   font-weight: 100;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
+
+
+
+
+
+/* =====ABOUT ME */
+.aboutMe{
+  text-align: left;
+  font-size: 20px;
+  margin-right: 40px;
+}
+.heyIamIgor{
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.igor-img{
+  width:70%;
+}
 
