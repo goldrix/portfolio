@@ -1,6 +1,6 @@
 body {
     background:white;
-    
+    text-align: center;
     justify-content: space-around;
     align-items: center;
     /* overflow: hidden; */
@@ -111,3 +111,16 @@ html, body {
   width:350px;
 }
 
+.title{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+
+.underline{
+  border-bottom: 7px solid;
+  border-bottom-color:#ee6e73;
+  width:auto;
+  /* text-transform: uppercase; */
+  font-family: ocr-a-std, monospace;
+}
