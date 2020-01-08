@@ -1,0 +1,59 @@
+UX case studies:
+ - Airbnb Digital Concierge - UX Case Study
+ - SweatMeet — find your sports soulmate. UX Case Study
+ - ?
+ - ?
+
+ Research & Analysis
+    - Enterprise Usability testing
+    - AI emotion detection for quantitative user research. Case Study
+    - Card sorting
+
+
+
+ Design & Prototyping
+    - Prototype for Enterprise Data Catalog
+    - Sweatmeet prototype
+    - Sketches (best practices)
+    - wireframes
+    - userflows
+    - personas
+
+ My Blog
+    -The importance of time in UX design
+    -Are UX, UI, UXD, CX magic incantations or reality?
+    -How does UX design depend on user perception?
+    -Our color vision is limited
+    find more
+
+
+ Library
+ - Seductive Interaction Design: Creating Playful, Fun, And Effective User Experiences
+ Stephen P. Anderson, PoetPainter 2011
+- Designing with the Mind in Mind (Second Edition)
+Jeff Johnson, Morgan Kaufmann 2014
+-The Inmates Are Running the Asylum
+Alan Cooper, Sams Publishing 2004
+-Content Strategy For the Web (Second Edition)
+Kristina Halvorson, Melissa Rach, New Riders 2012
+-Hooked – How to Build Habit-Forming Products
+Nir Eyal, Penguin 2014
+-The Design of Business
+Roger Martin, Harvard Business Press 2009
+-The Paradox of Choice – Why More is Less
+Barry Schwartz, Harper 2004
+-Content Evertwhere
+Sara Wachter-Boettcher, Rosenfeld 2012
+-Designing for Behavior Change
+Stephen Wendel, O’Reilly Media 2013
+
+
+
+
+
+ Stay in touch
+ -Linkedin
+ -Insta
+ -Medium
+ -twitter
+ 
