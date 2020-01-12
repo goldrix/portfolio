@@ -1,3 +1,7 @@
+*{
+ margin:0;
+ padding: 0;
+}
 body {
     background:white;
     text-align: center;
@@ -5,29 +9,105 @@ body {
     align-items: center;
     /* overflow: hidden; */
     margin: 0px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
   }
 html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    justify-content: center;
   }
-  /* ======MENU */
-  .menu{
-    position: relative;
-    z-index: 4;
-    text-align: center;
-    top:30px;
+
+
+
+/* NAVBAR */
+.navbar-contaienr{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth; 
+  scroll-snap-type: y mandatory;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 5;
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    height:60px;
+    background:rgb(0, 0, 0, 0.7);
+    justify-content: center;
   }
-  .tabs{
-    color:white!important;
-    background-color:transparent!important;
+
+.navbar ul{
+    display: flex;
+    list-style:none;
+    width: 100%;
+    justify-content: center;
+   
+
   }
+.navbar ul li{
+  margin: 0, 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+
+}
+
+.navbar ul li a:hover{
+color:skyblue
+
+}
+
+
+section{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  scroll-snap-align: center;
+}
+
+section#home {
+  background:  no-repeat center center/cover;
+  height: 100vh;
+  top:0;
   
   
+}
+
+section#about {
+  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+  z-index: 0;
+}
+section#type2 {
+  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+  z-index: 0;
+}
+section#type3 {
+  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+  z-index: 0;
+}
+section#type4 {
+  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+  z-index: 0;
+}
+
   .tabs .tab a {
     color: white!important;
   }
 
+  /* Igor's particle face  */
   #dots {
     position: relative;
     margin-left: auto;
@@ -35,20 +115,20 @@ html, body {
     /* top: 30%; */
     /* left: 50%; */
 
-    margin-top: 150px;
+    margin-top: 20px;
     /* margin-left: -375px; */
     z-index: 1;
   }
  
 
   #defaultCanvas0{
-    /* top:0; */
-    /* margin-top: 0px; */
+   
     position: absolute;
     z-index: 0;
     top:0px;
     left:0;
     width:100%!important;
+    height: 100%!important;
 }
 
   .headerContainer{
@@ -67,12 +147,12 @@ html, body {
 
 
 .myName{
-  top: -200px;
+  top: -300px;
   position: relative;
   z-index: 3;
   text-align: center;
   /* font-family: 'Raleway', sans-serif; */
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   font-family: ocr-a-std, monospace;
   font-weight: 400;

@@ -4,8 +4,8 @@ function InteractiveParticles(canvas, args){
   this.args = args;
   this.density = 23;
   this.produceDistance = 1;
-  this.baseRadius = 2.377;
-  this.reactionSensitivity = 1;
+  this.baseRadius = 7;
+  this.reactionSensitivity = 2;
   this.particleRecessSpeed = 0.15;
   this.canvasPadding = 30
   this.ignoreColors = [];
