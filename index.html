@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" >
 	<head>
 		<meta charset="UTF-8" />
 		
@@ -9,35 +9,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/nse1dig.css">
-
-
-		<!--Import Google Icon Font-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 		<!--Import materialize.css-->
 		<!-- <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css"  media="screen,projection"/> -->
 	</head>
-	<body>
+	<body >
 	
-		<div class="eye">
-					
-			<script src="js/eye.js"></script>
-				<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js'></script>
-			
-			<div><canvas id="dots"></canvas></div>
-			<script src="js/face.js"></script>
-		</div>
-		
-
-		<div class="myName">
-				<p id="name">Igor Kalmykov</p>
-				<p id="title">Product Designer</p>
-		</div>		
+	
 	<div class="navbar-contaienr">
 				<nav class="navbar">
 					<ul>
 						<li><a href="/index.html"> Home</a></li>
-						<li><a href="#about"> About</a></li>
-						<li><a href="#type2"> Home</a></li>
+						<li><a href="#about"> About Me</a></li>
 						<li><a href="#type3"> Home</a></li>
 						<li><a href="#type4"> Home</a></li>
 						
@@ -45,39 +31,35 @@
 					</ul>
 				</nav>
 				
-
-		<section id="about">
-		<div class="aboutContainer"></div>
-			<div class="row">
-					<div class="col s6">
+				<!-- FACE -->
+				<div class="eye">
 					
-								<!-- <img class="igor-img" src="img/igor2.png"> -->
-						
-					</div>
-					<div class="col s6">
-							
-						
-						<a name="aboutme"><div class="aboutMe"> </a>
-	
-							<blockquote class="heyIamIgor">Hi, my name is Igor</blockquote>
-						I am a Product Designer and UX expert with more than 7 years of experience, living in New York City. I Have experience designing digital and physical products. The best part of what I do is finding solutions to complex problems that then make life easier for others. My mission is finding a compromise between business needs and user expectations.<br><br>
-							
-			
-						When I’m not hard at work I enjoy skiing, driving, traveling, playing around with the newest technologies, and read Medium <br><br>
-									
-						I would like to learn more about your project. <br><br>
-									
-						If you are a non-profit organization please feel free to reach out to me as well; I would be happy to help you for free. <br><br>
-					</div>
-			</div>
-	
+					<script src="js/eye.js"></script>
+						<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js'></script>
+					
+					<div><canvas id="dots"></canvas></div>
+					<script src="js/face.js"></script>
+				</div>
+				
+		
+				<div class="myName" >
+						<p id="name"  >Igor Kalmykov</p>
+						<p id="title">Product Designer</p>
+				</div>		
 		</div>
+		
+		
+		
+				<!-- ABOUT -->
+
+				
+				
+		<section id="about" >
+		
+					<p class="who-is-igor"data-aos="fade-up">Who is Igor?</p>
+		
 		</section>
-
-		<section id="type2">
-
-		</section>
-
+					
 		<section id="type3">
 
 		</section>
@@ -87,7 +69,7 @@
 		</section>
 
 
-	</div>
+	
 
 	
 	<!-- UX CASE STUDIES -->
@@ -146,7 +128,7 @@
 
 	</div>
 	<!-- RESEARCH AND ANALYSIS -->
-	<div class="col s3">
+	<div class="col s3" data-aos="fade-right">
 			<h3 class="title underline ">Research & Analysis</h3>
 		</div>
 	<div class="row">
@@ -199,11 +181,24 @@
 			</div>
 
 	</div>
-
+</div>
 		
 		
 			
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+ 
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+ <script src="js/script.js"></script> 
+ 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({
+    offset: 200, // offset (in px) from the original trigger point
+    // delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 2000 // values from 0 to 3000, with step 50ms
+  });
+</script>
+
 </body>		
 </html>
