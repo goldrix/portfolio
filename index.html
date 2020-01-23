@@ -7,10 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Interactive Particles | Codrops</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+		
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/about.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/nse1dig.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 		<!--Import materialize.css-->
@@ -18,11 +20,11 @@
 	</head>
 	<body >
 	
-	
+	<section id="home">
 	<div class="navbar-contaienr">
 				<nav class="navbar">
 					<ul>
-						<li><a href="/index.html"> Home</a></li>
+						<li><a href="#home"> Home</a></li>
 						<li><a href="#about"> About Me</a></li>
 						<li><a href="#type3"> Home</a></li>
 						<li><a href="#type4"> Home</a></li>
@@ -32,34 +34,46 @@
 				</nav>
 				
 				<!-- FACE -->
+				
 				<div class="eye">
 					
 					<script src="js/eye.js"></script>
-						<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js'></script>
+					<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js'></script>
 					
+					<div class="myName" >
+							<p id="name"  >Igor Kalmykov</p>
+							<p id="title">Product Designer</p>
+					</div>
+
 					<div><canvas id="dots"></canvas></div>
 					<script src="js/face.js"></script>
 				</div>
 				
 		
-				<div class="myName" >
-						<p id="name"  >Igor Kalmykov</p>
-						<p id="title">Product Designer</p>
-				</div>		
+						
 		</div>
+		</section>
 		
 		
 		
-				<!-- ABOUT -->
+	<!-- ABOUT -->
 
 				
-				
-		<section id="about" >
 		
-					<p class="who-is-igor"data-aos="fade-up">Who is Igor?</p>
+	<section id="about" >
 		
-		</section>
+			<span class="i-am-igor" data-aos="fade-up">
+				<p class="hi">Hi, &nbsp; </p>
+				<p class="im-igor">I'm Igor</p>
+			</span>
+			
+
+	</section>
+		
 					
+
+
+
 		<section id="type3">
 
 		</section>

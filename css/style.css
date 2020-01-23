@@ -29,11 +29,6 @@ html, body {
 
 /* NAVBAR */
 
-
-
-
-
-
 .navbar-contaienr{
   width: 100%;
   height: 100vh;
@@ -54,6 +49,7 @@ html, body {
     justify-content: center;
     font-size: 0.8rem;
     font-weight: 300;
+    margin-bottom: 110px; 
   }
 
 .navbar ul{
@@ -82,6 +78,7 @@ color:skyblue
 }
 
 
+
 section{
   width:100%;
   height: 100vh;
@@ -97,26 +94,6 @@ section{
 
 
 /* ABOUT */
-
-
-
-
-
-section#about {
-  background: url('../img/about-me.jpg') no-repeat center center/cover;
-  
-
-}
-
-.who-is-igor{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  font-weight: 400;
-  font-style: normal;
-  /* letter-spacing: 8px; */
-  padding-top: 60px;
-  color: #f4f4f4;
-}
 
 
 
@@ -161,19 +138,7 @@ section#type4 {
     height: 100vh!important;
 }
 
-  .headerContainer{
-    text-align: center;
-    
-  }
-
-
-  .aboutContainer{
-    
-    text-align: center;
-    
-  }
-
-
+ 
 
 
 /* IGOR KALMYKOV PRODUCT DESIGNER */
@@ -181,7 +146,8 @@ section#type4 {
 
 
 .myName{
-  top: -200px;
+  top: 50rem;
+  /* top:800px; */
   position: relative;
   z-index: 3;
   text-align: center;
@@ -203,38 +169,4 @@ section#type4 {
   font-weight: 100;
   font-size: 35px;
   margin-top: 0px;
-}
-
-
-
-
-
-
-/* =====ABOUT ME */
-.aboutMe{
-  text-align: left;
-  font-size: 20px;
-  margin-right: 40px;
-}
-.heyIamIgor{
-  font-size: 40px;
-  font-weight: 600;
-
-}
-.igor-img{
-  width:650px;
-}
-
-.title{
-  margin-top: 70px;
-  margin-bottom: 20px;
-}
-
-
-.underline{
-  border-bottom: 7px solid;
-  border-bottom-color:#ee6e73;
-  width:auto;
-  /* text-transform: uppercase; */
-  font-family: ocr-a-std, monospace;
 }
