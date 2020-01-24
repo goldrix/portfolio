@@ -1,23 +1,52 @@
-.hi{
-    color: rgb(255, 255, 255); 
-} 
+#about {
+  background-color: #292B39;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  
+}
 
-.im-igor{
+.aboutContainer{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+
+#hi{
+    color: rgb(255, 255, 255); 
+  } 
+  
+  #im-igor{
     color: #D8B835;
   }
+  
+  .im-igor-description{
+    width:40vw;
+    font-size: 1.5rem;
+    text-align: left;
+    color: rgb(255, 255, 255); 
+    margin-right: 10vw;
+    
+    
+  }
 
-
-#about {
-    background-color: #292B39;
     
   
-  }
+  
   .i-am-igor{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     font-weight: 900;
     padding-top: 60px;
-    color: #f4f4f4;
-    padding-left: 20vw;
+    
   }
+
+  .imageContainer{
+    line-height: 80vh;
+  }
+  .imageContainer img{ 
+    vertical-align: middle;
+    }
+
