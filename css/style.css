@@ -55,7 +55,7 @@ html, body {
 .navbar ul{
     display: flex;
     list-style:none;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
    
 
@@ -88,7 +88,28 @@ section{
 
 
 
+/* IGOR'S PARTICLE FACE  */
+#dots {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* top: 30%; */
+  /* left: 50%; */
+  margin-top: -20vh;
+  /* margin-left: -375px; */
+  z-index: 1;
+}
 
+
+#defaultCanvas0{
+ 
+  position: absolute;
+  z-index: 0;
+  top:0px;
+  left:0;
+  width:100%!important;
+  height: 100vh!important;
+}
 
 
 
@@ -115,28 +136,7 @@ section#type4 {
     color: white!important;
   }
 
-  /* Igor's particle face  */
-  #dots {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    /* top: 30%; */
-    /* left: 50%; */
-    /* margin-top: 20px; */
-    /* margin-left: -375px; */
-    z-index: 1;
-  }
- 
-
-  #defaultCanvas0{
-   
-    position: absolute;
-    z-index: 0;
-    top:0px;
-    left:0;
-    width:100%!important;
-    height: 100vh!important;
-}
+  
 
  
 
