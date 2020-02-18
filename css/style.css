@@ -1,8 +1,10 @@
 *{
  margin:0;
  padding: 0;
- scroll-behavior: smooth; 
+ 
 }
+
+
 body {
     background:white;
     text-align: center;
@@ -170,4 +172,27 @@ section#type4 {
   font-weight: 100;
   font-size: 35px;
   margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+ 
+  #dots{
+    display: none;
+  }
+  #defaultCanvas0{
+    display: none;
+  }
+  section#home{
+    height:60px;
+  }
+  .eye{
+    display: none;
+  }
 }
