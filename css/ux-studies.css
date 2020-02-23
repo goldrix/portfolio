@@ -1,0 +1,60 @@
+/* body {
+    --space: 2rem;
+    margin: var(--space);
+    background: #333;
+  } */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+    grid-gap: var(--space);
+  }
+  .perspective {
+    perspective: 750px;
+  }
+  .card {
+    background: #fff;
+  }
+  .card__info {
+    padding: 1.5rem;
+  }
+  .card__info > * {
+    margin: 0;
+  }
+  .card__info > * + * {
+    margin-top: 0.5rem;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-1-image img{
+    /* width: 100vw; width of container */
+    /* height: 40vh; height of container */
+    /* object-fit: cover; */
+    /* object-position: 0px -200px;  */
+    /* border: 5px solid black; */
+}
+
