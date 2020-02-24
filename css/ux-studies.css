@@ -1,60 +1,60 @@
-/* body {
-    --space: 2rem;
-    margin: var(--space);
-    background: #333;
-  } */
-  img {
-    max-width: 100%;
-    display: block;
+.perspective {
+    perspective: 500px;
   }
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
-    grid-gap: var(--space);
-  }
-  .perspective {
-    perspective: 750px;
-  }
-  .card {
-    background: #fff;
-  }
-  .card__info {
-    padding: 1.5rem;
-  }
-  .card__info > * {
-    margin: 0;
-  }
-  .card__info > * + * {
-    margin-top: 0.5rem;
-  }
-  
 
+section#case-study{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project-1-image img{
-    /* width: 100vw; width of container */
-    /* height: 40vh; height of container */
-    /* object-fit: cover; */
-    /* object-position: 0px -200px;  */
-    /* border: 5px solid black; */
+  background-color: #282828;
+  background-image:linear-gradient(#434343, #282828);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  height:100vh;
+  background-size:25px 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
+.case-study-container-title{
+  font-size: 3rem;
+  /* font-weight: 600; */
+  color: white;
+  padding-top: 52px;
+  /* height: 20vh; */
+  
+}
+
+.portfolio-projects-container{
+    display:flex;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* margin-top: -3vh; */
+   
+    
+    
+}
+ 
+.portfolio-project-item{
+    
+    max-width: 50%;
+  }
+  
+  .portfolio-project-item img, .follow-cursor {
+    padding: 0 20px;
+    width:25vw;
+  }
+  .portfolio-project-item img{
+
+  }
+
+
+ 
+  .project-title{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D8B835;
+    padding-top: 10px;
+  }
+
+  .project-subtitle{
+    color: ivory;
+  }
