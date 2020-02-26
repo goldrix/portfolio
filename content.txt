@@ -8,16 +8,30 @@ UX case studies:
     - Enterprise Usability testing
     - AI emotion detection for quantitative user research. Case Study
     - Card sorting
-
-
-
- Design & Prototyping
-    - Prototype for Enterprise Data Catalog
-    - Sweatmeet prototype
-    - Sketches (best practices)
-    - wireframes
-    - userflows
     - personas
+    - User interviews
+    - Content Strategy
+    - Userflows
+
+
+
+Sketches
+
+Wireframes
+
+Hi-fi Mockups
+
+Prototypes
+    - React prototype. Prototype for Enterprise Data Catalog
+    - Adobe XD. Sweatmeet prototype
+    - Invision
+    - Figma
+
+ 
+   
+    
+   
+    
 
  My Blog
     -The importance of time in UX design

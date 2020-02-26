@@ -2,6 +2,9 @@
     perspective: 500px;
   }
 
+  section{
+    background-color: #282828;
+  }
 section#case-study{
 
   background-color: #282828;
@@ -57,4 +60,8 @@ section#case-study{
 
   .project-subtitle{
     color: ivory;
+  }
+
+  .portfolio-projects-container a{
+    text-decoration: none;
   }
