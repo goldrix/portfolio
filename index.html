@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/about.css" />
 		<link rel="stylesheet" type="text/css" href="css/ux-studies.css" />
+		<link rel="stylesheet" type="text/css" href="css/research.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/nse1dig.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
@@ -30,11 +31,11 @@
 						<li><a href="#about"> About Me</a></li>
 						<li><a href="#case-study"> UX Case Studies</a></li>
 						<li><a href="#research"> Research & Analysis</a></li>
-						<li><a href="#sketches"> Sketches</a></li>
-						<li><a href="#wireframes">Wireframes</a></li>
+						<li><a href="#sketches"> Design</a></li>
+						<!-- <li><a href="#wireframes">Wireframes</a></li>
 						<li><a href="#hi-fi">Hi-fi Mockups</a></li>
-						<li><a href="#prototypes">Prototypes</a></li>
-						<li><a href="#blog">Blog</a></li>
+						<li><a href="#prototypes">Prototypes</a></li> -->
+						<li><a href="#blog">My Articles</a></li>
 						<li><a href="#contacts">Contact me</a></li>
 						
 						
@@ -86,7 +87,7 @@
 							<div data-aos="fade-up">
 								<p id="hi" class="i-am-igor">Hi, &nbsp; <span id="im-igor">  I'm Igor</span>	</p>
 								<br>
-								<p class="im-igor-description"> I am a Product Designer and UX expert with more than 7 years of experience. The best part of what I do is finding solutions to complex problems that then make life easier for others. My mission is finding a compromise between business needs and user expectations. 
+								<p class="im-igor-description"> I am a Product Designer and UX expert with more than 8 years of experience. The best part of what I do is finding solutions to complex problems that then make life easier for others. My mission is finding a compromise between business needs and user expectations. 
 								</p>
 							
 							</div>
@@ -150,14 +151,35 @@
 
 
 		<section id="research">
-			<div class="case-study-container">
-			
+			<div class="research-container">
 			
 				<div class="case-study-container-title"> Research & Analysis</div>
+				<div id="app" class="container">
+					<card data-image="https://miro.medium.com/max/1000/1*0Tfiu-ES00lmv3xFJUZx_g.jpeg">
+					  <h1 slot="header">AI Emotion Detection Survey</h1>
+					  <p slot="content">A Case Study on how I converted Google Forms survey into an AI facial recognition algorithm</p>
+					</card>
+					<card data-image="https://miro.medium.com/max/2475/1*D9oBgRmZQ6m4YhnbdUVLUw.png">
+					  <h1 slot="header">Usability Testing for Enterprise</h1>
+					  <p slot="content">High-quality usability testing can make your gray product a new star on the market</p>
+					</card>
+					<card data-image="https://miro.medium.com/max/2475/1*D9oBgRmZQ6m4YhnbdUVLUw.png">
+					  <h1 slot="header">Usability Testing for Enterprise</h1>
+					  <p slot="content">High-quality usability testing can make your gray product a new star on the market</p>
+					</card>
+					<card data-image="https://miro.medium.com/max/2475/1*D9oBgRmZQ6m4YhnbdUVLUw.png">
+					  <h1 slot="header">Usability Testing for Enterprise</h1>
+					  <p slot="content">High-quality usability testing can make your gray product a new star on the market</p>
+					</card>
+					
+				  </div>
 		</section>
 
+
+
+
 		<section id="sketches">
-			<div class="case-study-container">
+			<div class="research-container">
 			
 			
 				<div class="case-study-container-title">Sketches</div>
@@ -228,11 +250,15 @@
 <!-- <script  src="./js/scroll-delay.js"></script> -->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
  <script src="js/script.js"></script> 
- <script src="js/gsap.js"></script>
+ <script src="js/gsap.js"></script> <!-- follow cursor -->
  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+ <script src='./js/research-card.js'></script>
  
  
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!--https://michalsnik.github.io/aos/-->
+ 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--https://michalsnik.github.io/aos/-->
 <script>
 AOS.init({
     offset: 200, // offset (in px) from the original trigger point

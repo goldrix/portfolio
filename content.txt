@@ -7,11 +7,14 @@ UX case studies:
  Research & Analysis
     - Enterprise Usability testing
     - AI emotion detection for quantitative user research. Case Study
+
     - Card sorting
     - personas
     - User interviews
     - Content Strategy
     - Userflows
+    - serveys
+    
 
 
 
@@ -26,6 +29,7 @@ Prototypes
     - Adobe XD. Sweatmeet prototype
     - Invision
     - Figma
+    - Usage report
 
  
    
