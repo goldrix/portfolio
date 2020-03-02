@@ -14,7 +14,7 @@ UX case studies:
     - Content Strategy
     - Userflows
     - serveys
-    
+
 
 
 
@@ -24,12 +24,18 @@ Wireframes
 
 Hi-fi Mockups
 
-Prototypes
+Design
+    - My sketches
     - React prototype. Prototype for Enterprise Data Catalog
     - Adobe XD. Sweatmeet prototype
-    - Invision
-    - Figma
-    - Usage report
+    - Data Catalog Prototype
+
+    - Jupiter widget
+    - Search results
+    - usage report
+    - Stakeholder report
+    - fluz
+    - something from old portfolio
 
  
    

@@ -1,0 +1,107 @@
+section#design {
+    background: radial-gradient(hsl(198, 32%, 8%), hsl(255, 18%, 35%) );
+  
+    /* overflow: hidden; */
+    
+    font-family: 'Montserrat', sans-serif;
+    /* height: 100vh; */
+    height: 100%;
+    display: column;
+  }
+
+  .perspective {
+    perspective: 500px;
+  }
+
+  .portfolio-projects-container{
+    display:flex;
+    flex-wrap: wrap;
+    /* margin: 2rem; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 5vh;
+
+}
+ 
+
+
+.portfolio-project-item img{
+    padding: 0 20px;
+    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
+   
+}
+
+.follow-cursor{
+
+}
+
+  .project-title{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D8B835;
+    padding-top: 10px;
+  }
+
+  .project-subtitle{
+    color: ivory;
+  }
+
+  .portfolio-projects-container a{
+    text-decoration: none;
+  }
+  
+ /* MOCKUPS */
+  .container-design {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+  }
+  .content-design .img-wrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    /* align-items: stretch; */
+    -webkit-align-items: stretch;
+    border: 2px solid #424242;
+    border-radius: 2px;
+  }
+  .content-design .img-wrapper div {
+    height: 200px;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    /* align-self: stretch; */
+    /* -webkit-align-self: stretch; */
+    overflow: hidden;
+    border: 2px solid #424242;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+  .content-design .img-wrapper div:hover img {
+    opacity: 1;
+    transform: scale(1.05) rotate(0.4deg);
+  }
+  
+  .content-design .img-wrapper .img-one {
+    width: 15rem;
+  }
+  .content-design .img-wrapper .img-two {
+    width: 25vw;
+  }
+  .content-design .img-wrapper .img-three {
+    width: 25vw;
+  }
+  .content .img-wrapper .img-four {
+    width: 25vw;
+  }
+  .content-design .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 200ms ease-in-out;
+  }

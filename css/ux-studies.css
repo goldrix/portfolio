@@ -1,6 +1,4 @@
-.perspective {
-    perspective: 500px;
-  }
+
 
   /* section{
     background-color: #282828;
@@ -24,44 +22,3 @@ section#case-study{
   
 }
 
-.portfolio-projects-container{
-    display:flex;
-    margin: 2rem;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    /* margin-top: -3vh; */
-   
-    
-    
-}
- 
-.portfolio-project-item{
-    
-    max-width: 50%;
-  }
-  
-  .portfolio-project-item img, .follow-cursor {
-    padding: 0 20px;
-    width:25vw;
-  }
-  .portfolio-project-item img{
-
-  }
-
-
- 
-  .project-title{
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #D8B835;
-    padding-top: 10px;
-  }
-
-  .project-subtitle{
-    color: ivory;
-  }
-
-  .portfolio-projects-container a{
-    text-decoration: none;
-  }

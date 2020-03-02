@@ -123,18 +123,7 @@ section{
 
 
 
-section#type2 {
-  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
-  z-index: 0;
-}
-section#type3 {
-  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
-  z-index: 0;
-}
-section#type4 {
-  background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
-  z-index: 0;
-}
+
 
   .tabs .tab a {
     color: white!important;

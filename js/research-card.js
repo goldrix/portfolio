@@ -74,3 +74,5 @@ Vue.component('card', {
 
 const app = new Vue({
   el: '#app' });
+const appTwo = new Vue({
+  el: '#app-two' });
