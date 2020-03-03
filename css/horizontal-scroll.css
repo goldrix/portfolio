@@ -1,0 +1,68 @@
+section#horizontal-scrolling{
+      height: 180px;
+      width: 100vw;
+  }
+  
+  ::-webkit-scrollbar{width:2px;height:2px;}
+  ::-webkit-scrollbar-button{width:2px;height:2px;}
+  
+  div{
+    /* box-sizing:border-box; */
+  }
+  
+  body {
+    background: #111;
+  }
+  
+  .horizontal-scroll-wrapper{
+    /* position:absolute; */
+    display:flex;
+    /* top:0;
+    left:0; */
+    width:180px;
+    height:100vh;
+    margin:0;
+    background:#abc;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+  /* .horizontal-scroll-wrapper > div{
+    display:block;
+    height: 100px;
+    width: 100px;
+    padding:5px;
+    background:#cab;
+    transform:rotate(90deg);
+    transform-origin: right top;
+  } */
+  
+/* .scroll-item{
+    height: 200px;
+} */
+  .horizontal-scroll-wrapper p{
+    /* display: flex; */
+    transform:rotate(90deg);
+    font-size: 2rem;
+    /* transform-origin: right top; */
+    /* width:160px; */
+    /* height: fit-content; */
+   
+    margin: 150px 0;
+   
+  }
+  /* .rectangles{
+    top:0;
+    padding:100px 0 0 0;
+  }
+  .rectangles > div{
+    width:140px;
+    width: max-content;
+    margin:50px 10px;
+    padding:5px;
+    background:#cab;
+    transform:rotate(90deg) translateY(80px);
+    transform-origin: right top;
+  } */
+  
