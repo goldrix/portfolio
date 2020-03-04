@@ -107,7 +107,7 @@ function InteractiveParticles(canvas, args){
           theta = Math.atan2(currentPoint.y - that.mouse.y, currentPoint.x - that.mouse.x);
 
           if (that.mouse.down) {
-              distance = that.reactionSensitivity * 200 / Math.sqrt((that.mouse.x - currentPoint.x) * (that.mouse.x - currentPoint.x) +
+              distance = that.reactionSensitivity * 100 / Math.sqrt((that.mouse.x - currentPoint.x) * (that.mouse.x - currentPoint.x) +
                   (that.mouse.y - currentPoint.y) * (that.mouse.y - currentPoint.y));
           } else {
               distance = that.reactionSensitivity * 100 / Math.sqrt((that.mouse.x - currentPoint.x) * (that.mouse.x - currentPoint.x) +
@@ -220,7 +220,7 @@ function InteractiveParticles(canvas, args){
 (function() {
   var dots = new InteractiveParticles(document.getElementById('dots'), {
     size: [600,648],
-    density: 4,
+    density: 6,
     baseRadius: 0.5,
     ignoreColors: [
       [0,0,0]
