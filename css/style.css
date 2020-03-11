@@ -3,11 +3,7 @@
  padding: 0;
  /* overflow-y: auto; */
  /* overflow-x: hidden; */
- 
- 
 }
-
-
 
 body {
     background:white;
@@ -94,27 +90,78 @@ section{
   /* display: flex; */
   scroll-snap-align: center;
 }
-
-.eye{
-  height: 100vh;
-}
-
 section#home{
   height: 100vh;
 }
 
 
+.eye{
+  top:0;
+}
+
+
+
+/* IGOR'S PARTICLE FACE  */
+#defaultCanvas0{
+  position: absolute;
+  /* z-index: 0; */
+  top:0;
+  left:0;
+  width:100%!important;
+  height: 100vh!important;
+}
+
+#dots {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* top: 10%; */
+  /* left: 50%; */
+  /* margin-top: -20vh; */
+  /* margin-left: -375px; */
+  width: 35%;
+  z-index: 1;
+}
+
+
+/* IGOR KALMYKOV PRODUCT DESIGNER */
+
+.myName{
+  /* top: 60vh; */
+  /* margin-top:10%;  */
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  /* font-family: 'Raleway', sans-serif; */
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15vw;
+  font-family: ocr-a-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 8px;
+}
+
+#name{
+  font-size: 4vw;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+#title{
+  font-weight: 100;
+  font-size: 35px;
+  margin-top: 0px;
+}
+
 
 /* BUTTON */
 .button-world{
-  position: fixed;
+  margin-top:20px; 
+  position: relative;
   z-index: 4;
   margin-left: auto;
   margin-right: auto;
-  bottom: 100px;
-  
- 
-
+  /* top: 60vh; */
+  /* bottom: 20px; */
   line-height: 50px;
 	height: 50px;
 	text-align: center;
@@ -161,92 +208,15 @@ section#home{
 	opacity: 1;
 	transform: scale(1,1);
 }
-  
-
-
-
-
-
-
-
-/* IGOR'S PARTICLE FACE  */
-#dots {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  /* top: 10%; */
-  /* left: 50%; */
-  /* margin-top: -20vh; */
-  /* margin-left: -375px; */
-  width: 35%;
-  z-index: 1;
-}
-
-
-#defaultCanvas0{
- 
-  position: absolute;
-  z-index: 0;
-  top:0px;
-  left:0;
-  width:100%!important;
-  height: 100vh!important;
-}
-
 
 
 
 /* ABOUT */
 
 
-
-
-
-
-  .tabs .tab a {
-    color: white!important;
-  }
-
-  
-
- 
-
-
-/* IGOR KALMYKOV PRODUCT DESIGNER */
-
-
-
-.myName{
-  top: 70vh;
-  /* top:800px; */
-  position: relative;
-  z-index: 3;
-  text-align: center;
-  /* font-family: 'Raleway', sans-serif; */
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 15vw;
-  font-family: ocr-a-std, monospace;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 8px;
+.tabs .tab a {
+  color: white!important;
 }
-
-#name{
-  font-size: 4vw;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-}
-#title{
-  font-weight: 100;
-  font-size: 35px;
-  margin-top: 0px;
-}
-
-
-
-
-
-
 
 
 @media (max-width: 600px) {
