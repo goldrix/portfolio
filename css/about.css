@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   justify-content: center;
   height: 90vh;
+  width: 90vw;
   align-content: center;
 }
 
@@ -52,10 +53,7 @@
 
   }
  .text-info{
-    
     margin: auto;
-
-
   }
 
   .imageContainer{
@@ -64,12 +62,52 @@
   }
   .imageContainer img{ 
     vertical-align: middle;
+    width: 40vw;
+    /* padding: 50px 0 0 0; */
    
     }
 
-
-
-    /* ANIMATION */
-  
+@media (max-width: 800px){
+  #about {
     
+    height: auto;
     
+  }
+  .imageContainer{
+    margin-top: 60px;
+    line-height: 20px;
+    
+  }
+  .about-igor-container{
+    height: auto;
+    width: 99vw;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  }
+
+  .text-info{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+  }
+
+  .im-igor-description{
+    width:90vw;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+
+  }
+  .i-am-igor{
+    display: inline;
+  }
+}
+    
+@media (max-width: 600px){
+  .im-igor-description{
+    font-size: 1rem;
+  }
+}
