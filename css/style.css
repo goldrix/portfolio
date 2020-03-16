@@ -39,6 +39,16 @@ section#home{
 }
 
 /* IGOR'S PARTICLE FACE  */
+
+.draw{
+  z-index: 8;
+  position: absolute;
+}
+
+.face-container{
+  z-index: 9;
+}
+
 #defaultCanvas0{
   position: relative;
   /* z-index: 0; */
