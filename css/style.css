@@ -12,11 +12,15 @@ body {
     align-items: center;
     margin: 0px;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     line-height: 1.6;
     height: 100vh;
     width: 100vw;
-    /* overflow: auto; */
+  }
+
+  #particle-slider{
+    overflow: hidden;
+
   }
 html, body {
     width: 100%;
@@ -96,9 +100,10 @@ section#home{
   text-decoration: none;
   font-size: 1vw;
   font-family: ocr-a-std, monospace;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 3px;
+  /* text-transform: uppercase; */
 }
 
 .myName{
@@ -137,7 +142,7 @@ section#home{
   margin: 20px auto auto auto;
 
   line-height: 50px;
-	height: 50px;
+	/* height: 50px; */
 	text-align: center;
 	width: 20vw;
   cursor: pointer;
@@ -145,7 +150,7 @@ section#home{
 
 
 .btn-three {
-	color: #D8B835;;
+	color: white;
 	transition: all 0.5s;
 	position: relative;
 }
