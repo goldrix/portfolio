@@ -244,18 +244,36 @@ font-size: 1.5vw;
   
   .button-world{
   
-    width: 70vw;
+    width: 50vw;
   }
 
   .btn-three::before {
-     width: 70vw;
+     width: 50vw;
   }
   .btn-three::after {
-    width: 70vw;
+    width: 50vw;
 }
 .myName-container a{
  
-  font-size: 3vw;
+  font-size: 2vw;
+}
+.myName{
+  
+  font-size: 5vw;
+  
+}
+#name{
+  
+  font-size: 2vw;
+  
 }
 
+}
+
+@media only screen and (min-width: 1024px){
+  #particle-slider{
+    background-image: url('../img/space.gif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
 }
