@@ -18,10 +18,12 @@ body {
     width: 100vw;
   }
 
-  #particle-slider{
+  .particle-slider{
     overflow: hidden;
+    background-image: none;
 
   }
+
 html, body {
     width: 100%;
     /* height: 100%; */
@@ -218,7 +220,7 @@ section#home{
 .eye{
   display: none;
 }
-#particle-slider{
+.particle-slider{
 background-image: url('../img/space.gif');
 background-repeat: no-repeat;
 background-size: 100vw 100vh;
@@ -300,8 +302,8 @@ font-size: 1.5vw;
 
 }
 
-@media only screen and (min-width: 1024px){
-  #particle-slider{
+@media only screen and (max-width: 1024px){
+  .particle-slider{
     background-image: url('../img/space.gif');
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
