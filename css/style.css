@@ -219,7 +219,24 @@ section#home{
   display: none;
 }
 #particle-slider{
-background-image: url('../img/galaxy-space.jpg');
+background-image: url('../img/space.gif');
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+}
+.button-world{
+  
+  width: 30vw;
+}
+
+.btn-three::before {
+   width: 30vw;
+}
+.btn-three::after {
+  width: 30vw;
+}
+.myName-container a{
+
+font-size: 1.5vw;
 }
 }
 
