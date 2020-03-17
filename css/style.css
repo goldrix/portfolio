@@ -302,7 +302,7 @@ font-size: 1.5vw;
 
 }
 
-@media only screen and (max-width: 1025px){
+/* @media only screen and (max-width: 1025px){
   .particle-slider{
     background-image: url('../img/space.gif');
     background-repeat: no-repeat;
@@ -318,4 +318,4 @@ canvas#dots{
 .eye{
  display: none;
 }
-}
+} */
