@@ -270,6 +270,36 @@ font-size: 1.5vw;
 
 }
 
+@media (max-width: 360px) {
+  
+  .button-world{
+  
+    width: 90vw;
+  }
+
+  .btn-three::before {
+     width: 90vw;
+  }
+  .btn-three::after {
+    width: 90vw;
+}
+.myName-container a{
+ 
+  font-size: 4vw;
+}
+.myName{
+  
+  font-size: 6vw;
+  
+}
+#name{
+  
+  font-size: 3vw;
+  
+}
+
+}
+
 @media only screen and (min-width: 1024px){
   #particle-slider{
     background-image: url('../img/space.gif');
