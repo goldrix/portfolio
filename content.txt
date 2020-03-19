@@ -27,15 +27,19 @@ Hi-fi Mockups
 Design
     - My sketches
     - React prototype. Prototype for Enterprise Data Catalog
+    - Digital Concierge
     - Adobe XD. Sweatmeet prototype
     - Data Catalog Prototype
 
     - Jupiter widget
     - Search results
     - usage report
-    - Stakeholder report
-    - fluz
-    - something from old portfolio
+    
+    Stakeholder report
+    Sketch Fluz mockups
+    https://bitpointlatam.com/
+    https://fluz.app/
+
 
  
    

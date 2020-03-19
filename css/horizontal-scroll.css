@@ -45,9 +45,9 @@
   
 
   .example-left {
-    -webkit-animation: mymove 36s linear infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: mymove 2s linear infinite; /* Safari 4.0 - 8.0 */
     white-space: nowrap;
-    animation: mymove 36s linear infinite alternate;
+    animation: mymove 2s linear infinite alternate;
   }
   
   /* Safari 4.0 - 8.0 */
@@ -65,7 +65,7 @@
       left: 0;
     }
     to {
-      left: -2000px;
+      left: -100px;
     }
   }
 
