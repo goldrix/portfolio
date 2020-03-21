@@ -1,25 +1,20 @@
-section#design {
+#design {
     background: radial-gradient(hsl(198, 32%, 8%), hsl(255, 18%, 35%) );
   
     /* overflow: hidden; */
     
     font-family: 'Montserrat', sans-serif;
     /* height: 100vh; */
-    height: 100%;
-    display: column;
+    /* display: column; */
   }
 
-  section#blog{
+  #blog{
     background: radial-gradient(hsl(255, 18%, 35%), hsl(198, 32%, 8%));
-  
-    /* overflow: hidden; */
-    
     font-family: 'Montserrat', sans-serif;
-    /* height: 100vh; */
-    height: 100%;
-    display: column;
+    height: 100vh;
   }
   
+
 
   .perspective {
     perspective: 500px;
@@ -31,15 +26,17 @@ section#design {
     /* margin: 2rem; */
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 5vh;
+    padding-bottom: 20px;
+    align-items: flex-start;
 
 }
  
 
 
 .portfolio-project-item img{
-    padding: 0 20px;
+    padding: 20px 20px;
     object-fit: cover;
     width: 15rem;
     height: 15rem;
@@ -55,6 +52,7 @@ section#design {
     padding-top: 10px;
     width: 15rem;
     margin: auto;
+    /* margin:  0 0 0 0; */
   }
 
   .project-subtitle{
@@ -121,4 +119,14 @@ section#design {
     object-fit: cover;
     opacity: 0.8;
     transition: all 200ms ease-in-out;
+  }
+
+  @media (max-width:900px){
+    #design{
+      height: auto;
+    }
+    #blog{
+      
+      height: auto;
+    }
   }

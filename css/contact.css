@@ -1,0 +1,64 @@
+#contacts{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #282828;
+  background-image:linear-gradient(#434343, #282828);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  background-size:25px 25px;
+  }
+    
+
+.flex-center {
+    width: 100%;
+    min-height: 20vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .icon-3d {
+    padding: 10px;
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+    color: #fff;
+  }
+  .icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+  }
+  
+  @keyframes icon3d {
+    0% {
+      text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+    }
+    25% {
+      text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+    }
+    50% {
+      text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+    }
+    75% {
+      text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+    }
+    100% {
+      text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+    }
+  }
+
+  .contact-number{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D8B835;
+    padding-top: 10px;
+    width: 15rem;
+    margin: 30px auto auto auto;
+    
+  }

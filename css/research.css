@@ -145,3 +145,10 @@
     font-weight: 700;
     text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
   }
+
+
+  @media (max-width:900px){
+    #research{
+      height: auto;
+    }
+  }

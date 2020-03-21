@@ -84,4 +84,7 @@ Stephen Wendel, O’Reilly Media 2013
  -Insta
  -Medium
  -twitter
+ -Github
+ -email
+ -phone
  

@@ -13,13 +13,13 @@
 
 .horizontal-scrolling{
       height: 150px;
-      width: 100vw;
+      width: 98vw;
       /* position: flex; */
       /* justify-content: center; */
       /* background-image:radial-gradient(rgb(81, 73, 105), rgb(14, 23, 27)); */
 }
   article {
-    max-width: 99vw;
+    max-width: 98vw;
     /* margin: 1em auto; */
     overflow: hidden;
     position: relative;

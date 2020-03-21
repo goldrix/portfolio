@@ -3,7 +3,7 @@
   /* section{
     background-color: #282828;
   } */
-section#case-study{
+#case-study{
 
   background-color: #282828;
   background-image:linear-gradient(#434343, #282828);
@@ -22,3 +22,9 @@ section#case-study{
   
 }
 
+@media (max-width:900px){
+  #case-study{
+    height:auto;
+
+  }
+}
