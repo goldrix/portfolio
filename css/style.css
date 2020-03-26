@@ -298,6 +298,23 @@ font-size: 1.5vw;
 }
 
 }
+@media (width: 1366px) and (height: 1024px) {
+  canvas#dots{
+    display: none;
+  }
+ 
+  .myName{ 
+    display: inline;
+  }
+ .eye{
+   display: none;
+ }
+ .particle-slider{
+ background-image: url('../img/galaxy-space.jpg');
+ background-repeat: no-repeat;
+ background-size: 100vw 100vh;
+ }
+ }
 
 
 /* @media (min-height:1080px){
