@@ -8,10 +8,19 @@
     /* display: column; */
   }
 
+  #prototypes{
+    background: radial-gradient(hsl(198, 32%, 8%), hsl(255, 18%, 35%) );
+    
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  
+
   #blog{
     background: radial-gradient(hsl(255, 18%, 35%), hsl(198, 32%, 8%));
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
   }
   
 
@@ -87,7 +96,7 @@
     flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
     /* align-items: stretch; */
-    -webkit-align-items: stretch;
+    /* -webkit-align-items: stretch; */
     border: 0.5px solid #D8B835;
     border-radius: 0.5px;
   }
