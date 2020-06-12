@@ -17,9 +17,23 @@
   font-size: 3rem;
   /* font-weight: 600; */
   color: white;
-  padding-top: 52px;
+  padding-top: 20px;
   /* height: 20vh; */
   
+}
+.case-study-container-subtitle-level{
+  font-size: 1.2rem;
+  /* font-weight: 600; */
+  color: white;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.case-study-container-subtitle{
+  font-size: 1.2rem;
+  /* font-weight: 600; */
+  color: white;
+  padding-top: 20px;
 }
 
 @media (max-width:900px){
