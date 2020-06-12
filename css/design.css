@@ -55,6 +55,12 @@
     /* margin:  0 0 0 0; */
   }
 
+  .supporting-image{
+    width: 20px;
+    padding-top: 8px;
+    margin:2px;
+  }
+
   .project-subtitle{
     color: ivory;
     width: 15rem;
