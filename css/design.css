@@ -4,13 +4,14 @@
     /* overflow: hidden; */
     
     font-family: 'Montserrat', sans-serif;
-    /* height: 100vh; */
+    height: 100vh;
     /* display: column; */
   }
 
   #prototypes{
     background: radial-gradient(hsl(198, 32%, 8%), hsl(255, 18%, 35%) );
-    
+    height: 100vh;
+
     font-family: 'Montserrat', sans-serif;
     
   }
@@ -20,7 +21,7 @@
   #blog{
     background: radial-gradient(hsl(255, 18%, 35%), hsl(198, 32%, 8%));
     font-family: 'Montserrat', sans-serif;
-    /* height: 100vh; */
+    height: 100vh;
   }
   
 
