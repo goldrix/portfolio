@@ -334,6 +334,8 @@ font-size: 1.5vw;
  }
  }
 
+
+
  @media (width: 1024px) and (height: 800px) {
   canvas#dots{
     display: none;
