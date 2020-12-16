@@ -57,9 +57,11 @@
   
 }
 
-.bullet-list{
-  margin-left: 20px;
+.bullet-list li{
+  margin: 2em 20px;
 }
+
+
 
 .listTitle{
   font-weight: 600;
@@ -72,3 +74,10 @@
   width: 100%;
   padding-top: 56px;
 }
+
+.quotation{
+  font-style: italic;
+  margin: 2em 0;
+}
+
+
