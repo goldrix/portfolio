@@ -1,7 +1,7 @@
 #about {
   background-color: #292B39;
   font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  height: 100%;
   
 }
 
@@ -34,9 +34,11 @@
   }
   .im-igor-description{
     width:40vw;
+    /* height: 20px; */
     font-size: 1.5rem;
     text-align: left;
     color: rgb(255, 255, 255); 
+    
         
   }
 
