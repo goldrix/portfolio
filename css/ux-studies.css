@@ -15,14 +15,56 @@
   
 }
 
+#case-study-2{
+
+  padding-top: 50px;
+  background-color: #282828;
+  background-image:linear-gradient(#434343, #282828);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  /* height:100vh; */
+  background-size:25px 25px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 .case-study-container-title{
   font-size: 3rem;
   /* font-weight: 600; */
   color: white;
-  padding-top: 20px;
+  padding-top: 40px;
   /* height: 20vh; */
   
 }
+
+.subtitle{
+  font-size: 2rem;
+  line-height: 1.6;
+  width: 40vw;
+
+  /* font-weight: 600; */
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 20vh; */
+}
+
+.subtitle-2{
+  color: white;
+  font-size: 1rem;
+  width: 40vw;
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  /* margin-left: 50px; */
+  line-height: 1.6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .subtitle-container{
   width: 50%;
   text-align: center;
@@ -59,6 +101,13 @@ opacity: 0.5;
 
 @media (max-width:900px){
   #case-study{
+    height:auto;
+
+  }
+}
+
+@media (max-width:900px){
+  #case-study-2{
     height:auto;
 
   }
