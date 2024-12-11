@@ -65,6 +65,15 @@
     /* margin:  0 0 0 0; */
   }
 
+  .articke-title{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D8B835;
+    padding-top: 10px;
+    /* width: 15rem; */
+    margin: auto;
+  }
+
   .supporting-image{
     width: 20px;
     padding-top: 8px;
