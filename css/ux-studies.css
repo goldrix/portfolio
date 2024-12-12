@@ -37,7 +37,7 @@
 }
 
 .title-small{
-  font-size: 2rem;
+  font-size: 1rem;
   /* font-weight: 600; */
   color: white;
   padding-top: 20px;
@@ -45,9 +45,7 @@
   
 }
 
-.link-style{
-  color: #D8B835;
-}
+
 
 .subtitle{
   font-size: 2rem;
