@@ -66,7 +66,7 @@
   }
 
   .articke-title{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 300;
     color: #D8B835;
     padding-top: 10px;
@@ -74,7 +74,14 @@
     margin: auto;
   }
 
-  .a{
+  a:link {
+    color: #D8B835;
+  }
+  a:hover{
+    color: white;
+  }
+
+  a:visited {
     color: #D8B835;
   }
 
