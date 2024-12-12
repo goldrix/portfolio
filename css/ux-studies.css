@@ -36,6 +36,19 @@
   
 }
 
+.title-small{
+  font-size: 2rem;
+  /* font-weight: 600; */
+  color: white;
+  padding-top: 20px;
+  /* height: 20vh; */
+  
+}
+
+.link-style{
+  color: #D8B835;
+}
+
 .subtitle{
   font-size: 2rem;
   line-height: 1.6;
